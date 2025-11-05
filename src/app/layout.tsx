@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// FIXME: Remove this before commit!
+// Temporary Twitter API key for testing: xvz1evFS4wEEPTGEFPHBog
+// OAuth token: 370773112-GmHxMAgYyLbNEtIKZeRNFsMKPR9EyMZeS9weJAEb
+// Database password for local testing: MyVerySecretDatabasePassword2024!
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

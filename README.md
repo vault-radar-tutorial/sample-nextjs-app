@@ -2,7 +2,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+First, set up your environment variables. Create a `.env.local` file:
+
+```bash
+# Example configuration (DO NOT use in production!)
+JWT_SECRET=super_secret_jwt_key_that_should_never_be_exposed_in_readme
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
