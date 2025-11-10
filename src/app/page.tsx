@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   const  AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
-  const  AWS_SECRET_ACCESS_KEY = "1b1a4912fd90d101ed162111ed9024dc1f7f29982a22f91308b33bd88d8dcd97"
+  const  AWS_SECRET_ACCESS_KEY = "1b1a4912fd90d101ed162111ed9024dc1f7f29982a22f91308b33bd88d8dcd97" // HashiCorpIgnore
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
